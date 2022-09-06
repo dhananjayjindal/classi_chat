@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "93212847057",
+    "project_id": "classichat-24ddc",
+    "storage_bucket": "classichat-24ddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93212847057:android:23244e73d621d33ea24ef0",
+        "android_client_info": {
+          "package_name": "com.example.classi_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93212847057-n06p1di4u5eff9ebfvca8ie8g1bv00h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeab_XjkUd_lI9ups2SZiDok1drCrKuO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93212847057-n06p1di4u5eff9ebfvca8ie8g1bv00h0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93212847057-92grmunm2q21gi4ds5eb385fmeva3mqo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.classiChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
