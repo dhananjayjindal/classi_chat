@@ -1,9 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:classi_chat/colors.dart';
-import 'package:flutter/material.dart';
+import 'package:classi_chat/export.dart';
 
-import '../info.dart';
+
 
 class WebChatAppBar extends StatelessWidget {
   const WebChatAppBar({super.key});

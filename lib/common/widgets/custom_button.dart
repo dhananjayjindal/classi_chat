@@ -1,8 +1,4 @@
-import 'package:classi_chat/colors.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
+import 'package:classi_chat/export.dart';
 class CustomButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;

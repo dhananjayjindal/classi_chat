@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:classi_chat/export.dart';
 class ErrorScreen extends StatelessWidget {
   final String error;
   const ErrorScreen({super.key, required this.error});

@@ -1,8 +1,4 @@
-import 'package:classi_chat/colors.dart';
-import 'package:classi_chat/common/widgets/custom_button.dart';
-import 'package:flutter/material.dart';
-
-import '../../auth/screens/login_screen.dart';
+import 'package:classi_chat/export.dart';
 
 class LandingScreen extends StatelessWidget {
   const LandingScreen({super.key});

@@ -1,6 +1,5 @@
-import 'package:classi_chat/colors.dart';
-import 'package:classi_chat/widgets/contact_list.dart';
-import 'package:flutter/material.dart';
+
+import 'package:classi_chat/export.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({super.key});

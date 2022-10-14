@@ -1,13 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
-
-import 'package:classi_chat/colors.dart';
-import 'package:classi_chat/widgets/contact_list.dart';
-import 'package:classi_chat/widgets/web_chat_appbar.dart';
-import 'package:classi_chat/widgets/web_profile_bar.dart';
-import 'package:classi_chat/widgets/web_search_bar.dart';
-import 'package:flutter/material.dart';
-
-import '../widgets/chat_list.dart';
+import 'package:classi_chat/export.dart';
 
 class WebScreenLayout extends StatelessWidget {
   const WebScreenLayout({super.key});

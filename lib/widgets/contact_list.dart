@@ -1,6 +1,5 @@
-import 'package:classi_chat/screens/mobile_chat_screen.dart';
-import 'package:flutter/material.dart';
-import '../info.dart';
+
+import 'package:classi_chat/export.dart';
 
 class ContactList extends StatelessWidget {
   const ContactList({super.key});

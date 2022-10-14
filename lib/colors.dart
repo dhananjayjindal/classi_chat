@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:classi_chat/export.dart';
 
 const backgroundColor = Color.fromRGBO(19, 28, 33, 1);
 const textColor = Color.fromRGBO(241, 241, 242, 1);

@@ -1,8 +1,5 @@
-import 'package:classi_chat/info.dart';
-import 'package:classi_chat/widgets/my_message_card.dart';
-import 'package:flutter/widgets.dart';
 
-import 'sender_message_card.dart';
+import 'package:classi_chat/export.dart';
 
 class ChatList extends StatelessWidget {
   const ChatList({super.key});

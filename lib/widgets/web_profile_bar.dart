@@ -1,5 +1,4 @@
-import 'package:classi_chat/colors.dart';
-import 'package:flutter/material.dart';
+import 'package:classi_chat/export.dart';
 
 class WebProfileBar extends StatelessWidget {
   const WebProfileBar({super.key});

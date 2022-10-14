@@ -1,8 +1,4 @@
-import 'package:classi_chat/colors.dart';
-import 'package:classi_chat/common/widgets/custom_button.dart';
-import 'package:country_picker/country_picker.dart';
-import 'package:flutter/material.dart';
-
+import 'package:classi_chat/export.dart';
 class LoginScreen extends StatefulWidget {
   static const routeName = '/login-screen';
   const LoginScreen({super.key});
@@ -35,41 +31,42 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
+      
       appBar: AppBar(
         title: const Text("Enter Your Phone Number"),
         elevation: 0,
         backgroundColor: backgroundColor,
       ),
       body: Padding(
+        
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("ClassiChat will need  to verify your phone number"),
-            SizedBox(height: 10),
-            TextButton(onPressed:pickCountry, child: Text('Pick Country')),
-            SizedBox(height: 10),
+            const Text("ClassiChat will need  to verify your phone number"),
+            const SizedBox(height: 10),
+            TextButton(onPressed:pickCountry, child: const Text('Pick Country')),
+            const SizedBox(height: 10),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 if (country != null) Text('+${country!.phoneCode}'),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 SizedBox(
-                  
                   width: size.width * 0.7,
                   child: TextField(
                     
                     controller: phoneContoller,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       hintText: "Phone Number",
                     ),
                   ),
                 )
               ],
             ),
-            SizedBox(height: size.height * 0.6),
+            const SizedBox(height: 10),
             SizedBox(
               width: 90,
               child: CustomButton(text: 'NEXT', onPressed: () {}),

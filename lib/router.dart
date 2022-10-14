@@ -1,12 +1,15 @@
-import 'package:classi_chat/common/widgets/error.dart';
-import 'package:classi_chat/features/auth/screens/login_screen.dart';
-import 'package:flutter/material.dart';
+import 'package:classi_chat/export.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case LoginScreen.routeName:
     return MaterialPageRoute(
       builder: (context) => const LoginScreen(),
+    );
+    case OTPScreen.routeName: 
+    final String verificationId = settings.arguments as String;
+    return MaterialPageRoute(
+      builder: (context) => OTPScreen(verificationId: verificationId, ),
     );
   
     default: 

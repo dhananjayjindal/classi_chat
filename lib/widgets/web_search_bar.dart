@@ -1,7 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'package:classi_chat/colors.dart';
-import 'package:flutter/material.dart';
+import 'package:classi_chat/export.dart';
 
 class WebSearchBar extends StatelessWidget {
   const WebSearchBar({super.key});
